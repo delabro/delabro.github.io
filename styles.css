@@ -1,0 +1,560 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+header {
+    padding-left: 1em;
+}
+
+.wrapper {
+    font-size: 16px;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1300px;
+}
+
+.image-me {
+    display: block;
+    margin: 0 auto;
+    top: 3.5em;
+    position: relative;
+    padding-top: 8em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    /*font-family: 'Playfair Display', serif;*/
+}
+
+
+/*-----------------------------------------------LAYOUT---------------------------------*/
+
+.parent-1 {
+    position: relative;
+    display: flex;
+    margin: 6em 0;
+    padding: 8em 0;
+}
+
+.child-1 {
+    margin: 0;
+    width: 50%;
+}
+
+.projects {
+    margin: 0;
+    float: right;
+    padding-right: 5px;
+    padding-bottom: 2em;
+}
+
+.child-2 {
+    width: 40%;
+    border-left: 3px solid black;
+    z-index: 5;
+}
+
+.child-border {
+    border-left: none;
+    border-right: 3px solid black;
+}
+
+.projects-blurb-3 {
+    text-align: right;
+    margin-bottom: 0;
+    padding-right: 5px;
+}
+
+.contact {
+    margin: 0;
+    padding-left: 5px;
+    padding-bottom: 2em;
+}
+
+.projects-blurb {
+    margin: 0;
+    padding-left: 5px;
+    padding-top: 4.5em;
+    min-width: 170px;
+}
+
+
+/*.opener {
+    position: relative;
+}*/
+
+.skull,
+.name,
+{
+    position: absolute;
+}
+
+.layout-1 {
+    display: flex;
+    padding-top: 2em
+}
+
+.brute-blurb {
+    padding-left: 5px;
+    margin: 0;
+}
+
+.brute-phone {
+    padding-right: 2em;
+    height: auto;
+}
+
+@media screen and (min-width:500px) {
+    .brute-phone-div {
+        padding-right: 2em;
+    }
+}
+
+.brute-phone-div {
+    padding-right: 1em;
+    height: auto;
+}
+
+.brute-blurb-div {
+    padding-top: 2em;
+}
+
+.brute-platforms-div {
+    position: relative;
+}
+
+.spotify-blurb,
+.brute-blurb {
+    border-left: 3px solid black;
+    padding-left: 5px;
+    max-width: 487px;
+    margin: 0 2em;
+}
+
+.spotify-platforms-div {
+    max-width: 795px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.mudbrick-title {
+    padding-bottom: 1em;
+}
+
+.cuisine-platforms {
+    padding-bottom: 4em;
+}
+
+.cuisine-blurb {
+    float: right;
+    text-align: right;
+    border-right: 3px solid black;
+    padding-right: 5px;
+    max-width: 487px;
+    margin: 0 2em;
+}
+
+.cuisine-blurb-div {
+    padding-bottom: 5em;
+}
+
+.projects-blurb-3 {
+    border-left: none !important;
+}
+
+.layout-cuisine {
+    position: relative;
+}
+
+/*-----------------------------------------------images---------------------------------*/
+
+.projects-image {
+    min-width: 200px;
+    position: relative;
+}
+
+.spotify-platforms {
+    height: auto;
+}
+
+
+/*-----------------------------------------------SVG SKETCHS---------------------------------*/
+
+.path {
+    stroke-dasharray: 250;
+    stroke-dashoffset: 250;
+    animation: dash 4s linear forwards;
+    background: pink;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.skull {
+    display: block;
+    margin: 0 auto;
+    width: 75px;
+    position: relative;
+    bottom: 9.5em;
+}
+
+.path2 {
+    stroke-dasharray: 250;
+    stroke-dashoffset: 250;
+    animation: dash 4s linear forwards;
+    background: pink;
+}
+
+.is-paused {
+    animation-play-state: paused;
+}
+
+.skull-2 {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    position: absolute;
+    right: 5em;
+    top: -1em;
+}
+
+@media screen and (min-width: 530px) {
+    .skull-2 {
+    right: 10em;
+    }
+
+}
+
+.path-2 {
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+    animation: dash 5s linear forwards;
+    background: pink;
+}
+
+.name {
+    display: block;
+    margin: 0 auto;
+    width: 220px;
+    position: relative;
+    bottom: 6em;
+}
+
+@media screen and (min-width: 530px) {
+    .skull {
+        bottom: 15em;
+        width: 100px;
+    }
+    .name {
+        width: 300px;
+        bottom: 9em;
+    }
+}
+
+.path-think {
+    stroke-dasharray: 1100;
+    stroke-dashoffset: 1100;
+    animation: dash 3s linear forwards;
+}
+
+.is-paused {
+    animation-play-state: paused;
+}
+
+.jas-cal {
+    display: block;
+    position: relative;
+}
+
+.thought-bubble {
+    display: block;
+    position: absolute;
+    top: -5.5em;
+    width: 213px;
+    z-index: 10;
+}
+
+@media screen and (min-width:500px) {
+    .thought-bubble {
+    top: -2.5em;
+    width: 261px;
+    }
+}
+
+.path-jordie {
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: dash 4s linear forwards;
+}
+
+.is-paused {
+    animation-play-state: paused;
+}
+
+.jordie-face {
+    display: block;
+    position: absolute;
+    width: 60px;
+    z-index: 10;
+    right: -2em;
+    bottom: 1.5em;
+}
+
+@media screen and (min-width:500px) {
+    .jordie-face {
+        width: 80px;
+       right: 0em;
+    bottom: 5.5em;
+    } 
+}
+
+.path-gun {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+    animation: dash 6.5s linear forwards;
+}
+
+.is-paused {
+    animation-play-state: paused;
+}
+
+.gun {
+    display: block;
+    position: absolute;
+    width: 200px;
+    right: -1em;
+    top: 19em;
+}
+
+@media screen and (min-width:500px) {
+    .gun {
+    width: 200px;
+    top: -7em;
+    right: -1em;
+    }
+    
+}
+
+@media screen and (min-width:1030px) {
+    .gun {
+    width: 300px;
+    top: 0em;
+    right: 0em;
+    }
+}
+
+.path-badge {
+    stroke-dasharray: 420;
+    stroke-dashoffset: 420;
+    animation: dash 3.5s linear forwards;
+}
+
+.is-paused {
+    animation-play-state: paused;
+}
+
+.badge {
+    display: block;
+    position: absolute;
+    width: 140px;
+    z-index: 10;
+    top: -11em;
+}
+
+@media screen and (min-width:500px) {
+.badge {
+        width: 200px;
+    }
+}
+
+.path-tape {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+    animation: dash 8s linear forwards;
+}
+
+.is-paused {
+    animation-play-state: paused;
+}
+
+.tape {
+    display: block;
+    position: absolute;
+    width: 190px;
+    z-index: 10;
+    top: -6em;
+    right: 0;
+}
+
+@media screen and (min-width:500px) {
+    .tape {
+    width: 270px;
+    }
+}
+
+.path-platter {
+    stroke-dasharray: 2000;
+    stroke-dashoffset: 2000;
+    animation: dash 8s linear forwards;
+}
+
+.is-paused {
+    animation-play-state: paused;
+}
+
+.platter {
+    display: block;
+    position: absolute;
+    width: 190px;
+    top: -9em;
+    right: 1em;
+    z-index: 10;
+}
+
+@media screen and (min-width:500px) {
+     .platter {
+    width: 270px;
+    top: -3em;
+    left: 0em;
+    }
+}
+
+.contact-box {
+    border-left: 3px solid black;
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.contact-info {
+    padding-left: 7px;
+}
+
+.contact-header {
+    margin-top: 0;
+}
+
+.profile-blurb {
+    padding-top: 5em;
+}
+
+.profile-parent {
+    padding-bottom: 0em;
+}
+
+.profile-info {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.bum {
+    padding-bottom: 12em;
+}
+
+.path-monster {
+    stroke-dasharray: 800;
+    stroke-dashoffset: 800;
+    animation: dash 15s linear forwards;
+}
+
+.is-paused {
+    animation-play-state: paused;
+}
+
+.monster {
+    width: 350px;
+    top: -6em;
+    right: -9em;
+    display: block;
+    position: absolute;
+    
+    z-index: 10;
+}
+
+@media screen and (min-width:710px) {
+    .monster {
+    width: 500px;
+    top: -7em;
+    right: 0em;
+    }   
+
+}
+
+skull-2 {
+    position: absolute;
+}
+
+/*-----------------------------------------------NAVGATION---------------------------------*/
+
+.sticky {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1300px;
+    position: fixed;
+    background: white;
+    top: 0;
+    z-index: 12;
+    border-bottom: solid 3px black;
+}
+
+nav {
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    background-position: -100px 50%;
+    transition: .5s;
+    padding: 1em;
+}
+
+a:hover {
+    background: url(images/nav-line.svg)no-repeat;
+    background-position: 50% 50%;
+    bottom: 1em;
+}
+
+
+/*.top,
+.sticky {
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+}*/
+
+
+/*-----------------------------------------------HR---------------------------------*/
+
+hr {
+    border: none;
+    height: 1px;
+    color: black;
+    background-color: black;
+    margin: 6em 0;
+}
