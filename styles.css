@@ -528,13 +528,13 @@ nav ul li a {
     color: black;
 }
 
-a {
+.main-nav {
     background-position: -100px 50%;
     transition: .5s;
     padding: 1em;
 }
 
-a:hover {
+.main-nav:hover {
     background: url(images/nav-line.svg)no-repeat;
     background-position: 50% 50%;
     bottom: 1em;
