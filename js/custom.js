@@ -1,42 +1,44 @@
-(function() { // IIFE
-    var img, height, top, blurb
+window.onload = function() { // Wait for images to have loaded
 
-    img = document.querySelector('.child-1')
-    img = img.querySelector('img')
-    blurb = document.querySelector('.projects-blurb')
-    height = img.clientHeight // Get image height
+        (function() { // IIFE
+            var img, height, top, blurb
 
-    console.log(height)
+            img = document.querySelector('.child-1')
+            img = img.querySelector('img')
+            blurb = document.querySelector('.projects-blurb')
+            height = img.clientHeight // Get image height
 
-    blurb.style.marginTop = (height + 5) + 'px' // offset top with image height
-        // Readjust when window resizes
-    window.addEventListener('resize', function(e) {
-        e.preventDefault();
-        height = img.clientHeight
-        blurb.style.marginTop = (height + 5) + 'px'
-    })
-})();
+            console.log(height)
 
-(function() { // IIFE
-    var img, height, top, blurb
+            blurb.style.marginTop = (height + 5) + 'px' // offset top with image height
+                // Readjust when window resizes
+            window.addEventListener('resize', function(e) {
+                e.preventDefault();
+                height = img.clientHeight
+                blurb.style.marginTop = (height + 5) + 'px'
+            })
+        })();
 
-    img = document.querySelector('.child-1-2')
-    img = img.querySelector('img')
-    blurb = document.querySelector('.projects-blurb-2')
-    height = img.clientHeight // Get image height
+        (function() { // IIFE
+            var img, height, top, blurb
 
-    console.log(height)
+            img = document.querySelector('.child-1-2')
+            img = img.querySelector('img')
+            blurb = document.querySelector('.projects-blurb-2')
+            height = img.clientHeight // Get image height
 
-    blurb.style.marginTop = (height + 5) + 'px' // offset top with image height
-        // Readjust when window resizes
-    window.addEventListener('resize', function(e) {
-        e.preventDefault();
-        height = img.clientHeight
-        blurb.style.marginTop = (height + 5) + 'px'
-    })
-})();
+            console.log(height)
 
+            blurb.style.marginTop = (height + 5) + 'px' // offset top with image height
+                // Readjust when window resizes
+            window.addEventListener('resize', function(e) {
+                e.preventDefault();
+                height = img.clientHeight
+                blurb.style.marginTop = (height + 5) + 'px'
+            })
+        })();
 
+    } // End window.onload
 
 
 var nav, offset
