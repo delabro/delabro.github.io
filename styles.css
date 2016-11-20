@@ -235,9 +235,9 @@ h1 {
 }
 
 .path-2 {
-    stroke-dasharray: 400;
-    stroke-dashoffset: 400;
-    animation: dash 5s linear forwards;
+    stroke-dasharray: 5000;
+    stroke-dashoffset: 5000;
+    animation: dash 4s linear forwards;
     background: pink;
 }
 
@@ -294,6 +294,12 @@ h1 {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
     animation: dash 4s linear forwards;
+}
+
+.path-jordie {
+
+
+    stroke: gradient(linear, 74% 0%, 0% 0%, from(#663D30), to(#126608), color-stop(.3,#163033),color-stop(.6,#96993A));
 }
 
 .is-paused {
